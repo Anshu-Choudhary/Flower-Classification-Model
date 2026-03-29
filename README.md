@@ -12,7 +12,7 @@ This project uses a CNN model built with TensorFlow and Keras to identify differ
 
 ## 🚀 Live Demo
 
-> 🔗 [Click here to try the app](#) ← (Streamlit deploy karne ke baad link daalna)
+> 🔗 [Click here to try the app](#) ← (Streamlit deployment link)
 
 Upload any flower image and get an instant prediction!
 
