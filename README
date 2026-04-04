@@ -1,0 +1,94 @@
+# 🌸 Flower Classification using CNN
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=flat&logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-red?style=flat&logo=keras)
+![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-brightgreen?style=flat&logo=streamlit)
+![Accuracy](https://img.shields.io/badge/Validation%20Accuracy-92%25-success?style=flat)
+
+A deep learning model that classifies flower species from images using a Convolutional Neural Network (CNN) — deployed as a live web app with Streamlit.
+
+---
+
+## 🚀 Live Demo
+
+Upload any flower image → Get instant species prediction in your browser.
+
+> Built with TensorFlow + Keras and deployed using Streamlit.
+
+---
+
+## ✨ Highlights
+
+- **92% validation accuracy** on multi-class flower classification
+- **End-to-end deployment** — not just a notebook, a working web app
+- **Data augmentation** applied to reduce overfitting and improve generalization
+- Real-time image upload and prediction via interactive UI
+
+---
+
+## 🛠️ Tech Stack
+
+| Component | Technology |
+|---|---|
+| Language | Python |
+| Deep Learning | TensorFlow, Keras |
+| Model Architecture | CNN (Convolutional Neural Network) |
+| Deployment | Streamlit |
+| Image Processing | OpenCV, PIL |
+
+---
+
+## 📁 Project Structure
+
+```
+Flower-Classification-Model/
+├── Flower_Detection.ipynb     # Model training notebook
+├── Flower_Recog_Model.h5      # Saved trained model
+├── app.py                     # Streamlit web app
+└── README.md
+```
+
+---
+
+## ⚙️ How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/Anshu-Choudhary/Flower-Classification-Model.git
+cd Flower-Classification-Model
+
+# Install dependencies
+pip install tensorflow keras streamlit opencv-python pillow numpy
+
+# Run the app
+streamlit run app.py
+```
+
+---
+
+## 🧠 Model Details
+
+- **Architecture:** Custom CNN with Conv2D, MaxPooling, Dropout layers
+- **Input:** RGB flower images (resized to fixed dimensions)
+- **Preprocessing:** Resizing, normalization, data augmentation (flipping, rotation, zoom)
+- **Output:** Predicted flower species + confidence score
+- **Saved Format:** `.h5` (Keras HDF5)
+
+---
+
+## 📊 Results
+
+| Metric | Value |
+|---|---|
+| Validation Accuracy | **92%** |
+| Overfitting Control | Data Augmentation |
+| Deployment | Streamlit Web App |
+
+---
+
+## 👩‍💻 Author
+
+**Anshu Choudhary**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://linkedin.com/in/anshu-choudhary-20a465250)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/Anshu-Choudhary)
