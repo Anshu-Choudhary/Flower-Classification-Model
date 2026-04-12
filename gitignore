@@ -11,12 +11,12 @@ venv/
 env/
 .env
 
-# Data files (agar bade hain)
+# Data files 
 *.csv
 *.xlsx
 *.h5
 
-# Model files (agar bade hain)
+# Model files 
 *.pkl
 *.pt
 
