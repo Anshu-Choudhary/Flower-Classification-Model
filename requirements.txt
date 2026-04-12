@@ -1,5 +1,10 @@
-tensorflow-cpu
-streamlit
 numpy
-Pillow
 pandas
+tensorflow
+keras
+scikit-learn
+matplotlib
+seaborn
+streamlit
+Pillow
+jupyter
